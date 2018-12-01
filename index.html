@@ -3,6 +3,7 @@
         <title>OUR STORY.</title>
         <link type="text/css" rel="stylesheet" href="master.css">
         <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="mgGlitch.min.js"></script>
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -72,7 +73,7 @@
   </script>
 
           <div class="wrapper2">
-               <div class="glitch-img" style="background-image: url('glitchIt2.jpg')">  
+               <header class="glitch-img" style="background-image: url('glitchIt2.jpg')">  
 
                     <img src="logo_italic.jpg" alt="Elusive Logo" width="200" height="60" style="margin:18px 0px; opacity:0.7">
 
@@ -99,4 +100,93 @@
 </div>
 
     </body>
+    <!--
+    <style>
+.mySlides {display:none}
+.w3-badge {height:20px;width:20px;padding:0}
+</style>
+ <body>
+
+<div class="w3-content w3-display-container" style="max-width:600px">
+  <img class="mySlides" src="fhoodie.jpg" style="width:100%">
+  <img class="mySlides" src="bhoodie.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+
+    <h4 style="color:black; font-family: Poppins;"> Signature ELUSIVE Hoodie </h4>
+    <h5 style="color:grey; font-family: Poppins;">£35 </h5>
+    
+
+
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+</div>
+
+</body>
+-->
+<body>
+
+        <style>
+          .mySlides {display:none}
+             </style>
+<body>
+  <img src="logo_italic.jpg" alt="Elusive Logo" width="200" height="60" style="margin:18px 10px">
+
+    <div class="w3-content w3-display-container w3-center" style="max-width:600px">
+      <a href="index.html">
+              <img src='fhoodie.jpg' width="460" onmouseover="this.src='bhoodie.jpg';" onmouseout="this.src='fhoodie.jpg';"/>
+        <h5 style="color:black; font-family: Poppins;"> Signature Elusive Hoodie </h5>
+        <h6 style="color:grey; font-family: Poppins;">£35 </h6>
+
+      </a>
+      <a href="index.html">
+              <img src='ftshirt.jpg' width="460" onmouseover="this.src='btshirt.jpg';" onmouseout="this.src='ftshirt.jpg';"/>
+        
+
+     <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+        <h5 style="color:black; font-family: Poppins;"> Elusive One Generation T-Shirt </h5>
+        <h6 style="color:grey; font-family: Poppins;">£20 </h6>
+      </a>
+    
+    
+  </div>
+  </div>
+
+
+</div>
+
+</body>
+
+
 </html>
