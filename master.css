@@ -177,7 +177,9 @@ li:nth-child(4):hover::before {
     }
 }
 
-@media(max-width: 900px) {
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
     li {
         text-align: center;
         display: block !important;
@@ -188,5 +190,11 @@ li:nth-child(4):hover::before {
     li:hover::before {
         width: 0 !important;
     }
+
+.col-lg.overlay {
+    background: #000;
+    position: absolute;
+    top: -115%;
+}
 
 }
