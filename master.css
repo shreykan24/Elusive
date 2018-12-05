@@ -65,10 +65,6 @@ i {
 }
 
 
-img {
-    left: 50%;
-}
-
 .row, .col-lg {
     margin: 0 !important;
     padding: 0 !important;
@@ -82,6 +78,16 @@ img {
     background: #000;
     position: absolute;
     top: -100%;
+}
+
+#NewArrivals {
+    font-family: Poppins;
+    color: black;
+}
+
+#LogoSide {
+    z-index: 3;
+
 }
 
 ul {
@@ -195,6 +201,10 @@ and (max-device-width : 667px) {
     background: #000;
     position: absolute;
     top: -115%;
+}
+
+#LogoSlide {
+    display:none;
 }
 
 }
